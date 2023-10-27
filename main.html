@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header role="heading">
+        <h1>My Accessible Portfolio</h1>
+    </header>
 
+    <nav role="navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+<!-- 			<img src="https://unsplash.com/photos/silhouette-of-man-illustration-2LowviVHZ-E?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash"> -->
+            <img src="D:\Download\Profile.jpg" alt="My Profile Picture" role="img">
+            <p>This is a brief description of me and my portfolio.</p>
+        </section>
+
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1</li>
+                <li role="listitem">Project 2</li>
+                <li role="listitem">Project 3</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contact me at: Nafar@gmail.com</p>
+    </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
